@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="toBarleyBreak">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>150</y>
+      <width>402</width>
+      <height>402</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>4</number>
+    </property>
+    <property name="columnCount">
+     <number>4</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>28</number>
+    </attribute>
+    <attribute name="horizontalHeaderHighlightSections">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderHighlightSections">
+     <bool>false</bool>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QTextEdit" name="toMoves">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>80</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DigitalClock">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>80</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Игра</string>
+    </property>
+    <addaction name="menuNewGame"/>
+    <addaction name="menuRestart"/>
+    <addaction name="menuExit"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="menuNewGame">
+   <property name="text">
+    <string>Новая</string>
+   </property>
+  </action>
+  <action name="menuRestart">
+   <property name="text">
+    <string>Рестарт</string>
+   </property>
+  </action>
+  <action name="menuExit">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
